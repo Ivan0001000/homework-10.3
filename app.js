@@ -6,7 +6,7 @@ let contactBook = {
 
   findByName: function (name) {
     return this.contacts.find(
-      (contact) => contact.name.toLowerCase() === name.toLowerCase
+      (contact) => contact.name.toLowerCase() === name.toLowerCase()
     );
   },
 
